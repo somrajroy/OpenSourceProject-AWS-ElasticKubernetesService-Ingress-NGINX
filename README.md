@@ -46,6 +46,7 @@ AWS EKS Ingress with NGINX Ingress Controller & eksctl <br/><br/>
   $ kubectl delete ingress --all <br/>
   $ kubectl delete all --all -n ingress-basic <br/>
   $ kubectl delete namespace ingress-basic <br/>
+  $ kubectl delete ingressclass nginx <br/>
 * List existing resources <br/>
   $ kubectl get all <br/>
 * Clean up AWS enviornment <br/>
