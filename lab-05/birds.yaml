@@ -1,0 +1,25 @@
+kind: Pod
+apiVersion: v1
+metadata:
+  name: birds-app
+  labels:
+    app: birds
+spec:
+  containers:
+    - name: birds-app
+      image: hashicorp/http-echo
+      args:
+        - "-text=birds"
+
+---
+
+kind: Service
+apiVersion: v1
+metadata:
+  name: birds-service
+spec:
+  selector:
+    app: birds
+  ports:
+    - port: 5678 # Default port for image
+    

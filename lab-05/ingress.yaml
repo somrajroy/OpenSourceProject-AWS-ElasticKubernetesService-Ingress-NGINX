@@ -1,0 +1,32 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: app-ingress
+  annotations:
+    nginx.ingress.kubernetes.io/rewrite-target: /
+spec:
+  ingressClassName: nginx
+  rules:
+  -  http:
+      paths:
+        - path: /dogs
+          pathType: Prefix
+          backend:
+            service:
+              name: dogs-service
+              port:
+                number: 5678
+        - path: /cats
+          pathType: Prefix
+          backend:
+            service:
+              name: cats-service
+              port:
+                number: 5678
+        - path: /birds
+          pathType: Prefix
+          backend:
+            service:
+              name: birds-service
+              port:
+                number: 5678
