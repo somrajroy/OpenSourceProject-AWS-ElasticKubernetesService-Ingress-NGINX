@@ -1,5 +1,5 @@
 AWS EKS Ingress with NGINX Ingress Controller<br/><br/>
-* Create an EKS cluster
+* Create an EKS cluster <br/>
   $ eksctl create cluster --name k8sdemo --version 1.23 --region us-west-2 --nodegroup-name k8snodes --node-type t3.medium --nodes 2 <br/>
 * Switch context <br/>
   $ aws eks --region us-west-2 update-kubeconfig --name k8sdemo <br/>
