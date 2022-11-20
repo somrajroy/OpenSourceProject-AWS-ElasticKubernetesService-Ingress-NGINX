@@ -19,7 +19,9 @@ AWS EKS Ingress with NGINX Ingress Controller & eksctl <br/><br/>
   $ kubectl get pods -n ingress-basic -l app.kubernetes.io/name=ingress-nginx --watch <br/>
 * Inspect the ingress controller Service & pods <br/>
   $ kubectl get svc -n ingress-basic <br/>
+    ![image](https://user-images.githubusercontent.com/92582005/202901389-74dac10d-f48a-42bf-827d-051c5cdfef9d.png) <br/>
   $ kubectl get pods -n ingress-basic -l app.kubernetes.io/name=ingress-nginx <br/>
+    ![image](https://user-images.githubusercontent.com/92582005/202901432-f2a989c9-9929-4f19-83b2-d9c00fbe65c7.png) <br/>
 * Deploy the applications (pods and ClusterIP services) <br/>
   $ kubectl apply -f cats.yaml <br/>
   $ kubectl apply -f dogs.yaml <br/>
