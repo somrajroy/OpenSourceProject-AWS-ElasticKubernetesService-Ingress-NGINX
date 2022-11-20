@@ -54,8 +54,8 @@ AWS EKS Ingress with NGINX Ingress Controller & eksctl <br/><br/>
   $ kubectl get all <br/>
 * Clean up AWS enviornment <br/>
   $ eksctl delete cluster --name k8sdemo <br/><br/>
-  $ kubectl get -A ValidatingWebhookConfiguration
-  $ kubectl delete ValidatingWebhookConfiguration nginx-ingress-ingress-nginx-admission
+  $ kubectl get -A ValidatingWebhookConfiguration <br/>
+  $ kubectl delete ValidatingWebhookConfiguration nginx-ingress-ingress-nginx-admission <br/>
 #### Further references :
 * [What is Amazon EKS?](https://docs.aws.amazon.com/eks/latest/userguide/what-is-eks.html)<br/>
 * [How do I provide external access to multiple Kubernetes services in my Amazon EKS cluster?](https://aws.amazon.com/premiumsupport/knowledge-center/eks-access-kubernetes-services/)<br/>
