@@ -35,9 +35,9 @@ AWS EKS Ingress with NGINX Ingress Controller & eksctl <br/><br/>
   $ kubectl get svc -n ingress-basic
   ![image](https://user-images.githubusercontent.com/92582005/202900773-90d48063-fe27-48ef-b5d3-3ee7f5887397.png) <br/>
 * Browse to the cats, dogs and birds service <br/>
-  $ http://<<-DNS name as given under external ip column->>/cats
-  $ http://<<-DNS name as given under external ip column->>/dogs
-  $ http://<<-DNS name as given under external ip column->>/birds
+  $ http://<<-DNS name as given under external ip column->>/cats <br/>
+  $ http://<<-DNS name as given under external ip column->>/dogs <br/>
+  $ http://<<-DNS name as given under external ip column->>/birds <br/>
 * Clean up resources <br/>
   $ kubectl get all <br/>
   $ kubectl delete all --all <br/>
