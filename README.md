@@ -55,6 +55,7 @@ AWS EKS Ingress with NGINX Ingress Controller & eksctl <br/><br/>
 * Clean up AWS enviornment <br/>
   $ eksctl delete cluster --name k8sdemo <br/><br/>
 #### Further references :
+* [What is Amazon EKS?](https://docs.aws.amazon.com/eks/latest/userguide/what-is-eks.html)<br/>
 * [How do I provide external access to multiple Kubernetes services in my Amazon EKS cluster?](https://aws.amazon.com/premiumsupport/knowledge-center/eks-access-kubernetes-services/)<br/>
 * [Introducing the AWS Load Balancer Controller](https://aws.amazon.com/blogs/containers/introducing-aws-load-balancer-controller/)<br/>
 * [How to Set Up Ingress Controller in AWS EKS](https://towardsdatascience.com/how-to-set-up-ingress-controller-in-aws-eks-d745d9107307)<br/>
