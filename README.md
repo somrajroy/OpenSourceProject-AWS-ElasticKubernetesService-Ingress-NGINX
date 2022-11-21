@@ -1,4 +1,7 @@
 AWS EKS Ingress with NGINX Ingress Controller & eksctl <br/><br/>
+* Kubernetes supports a high-level abstraction called Ingress, which allows host- or URL-based routing. An Ingress is a core concept of Kubernetes. It is always implemented by a third party proxy; these implementations are known as ingress controllers. An ingress controller is responsible for reading the ingress resource information and processing that data accordingly. Different ingress controllers have extended the specification in different ways to support additional use cases.<br/>
+![image](https://user-images.githubusercontent.com/92582005/202991943-e65e2453-760d-4bd5-bd8c-86ab19de6166.png) <br/>
+
 * Clone the repository and navigate to the folder lab-05 <br/>
 * Open CLI in administrator mode and login <br/>
   $ aws configure <br/>
