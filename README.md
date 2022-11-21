@@ -62,6 +62,8 @@ AWS EKS Ingress with NGINX Ingress Controller & eksctl <br/><br/>
 * [Introducing the AWS Load Balancer Controller](https://aws.amazon.com/blogs/containers/introducing-aws-load-balancer-controller/)<br/>
 * [How to Set Up Ingress Controller in AWS EKS](https://towardsdatascience.com/how-to-set-up-ingress-controller-in-aws-eks-d745d9107307)<br/>
 * [How do I set up an ALB using the AWS Load Balancer Controller on an EC2 node group in EKS?](https://www.youtube.com/watch?v=TUS8KWaGKco)<br/>
+* [Kubernetes Ingress](https://kubernetes.io/docs/concepts/services-networking/ingress/)<br/>
+* [Using a Network Load Balancer with the NGINX Ingress Controller on Amazon EKS](https://aws.amazon.com/blogs/opensource/network-load-balancer-nginx-ingress-controller-eks/)<br/>
   
   
 
