@@ -68,6 +68,7 @@ AWS EKS Ingress with NGINX Ingress Controller & eksctl <br/><br/>
 * [How do I set up an ALB using the AWS Load Balancer Controller on an EC2 node group in EKS?](https://www.youtube.com/watch?v=TUS8KWaGKco)<br/>
 * [Kubernetes Ingress](https://kubernetes.io/docs/concepts/services-networking/ingress/)<br/>
 * [Using a Network Load Balancer with the NGINX Ingress Controller on Amazon EKS](https://aws.amazon.com/blogs/opensource/network-load-balancer-nginx-ingress-controller-eks/)<br/>
+* [How do I configure the NGINX Ingress Controller to increase the client request body, activate CORS to allow additional headers, and use WebSocket to work with Amazon EKS?](https://aws.amazon.com/premiumsupport/knowledge-center/eks-configure-nginx-ingress-controller/)<br/>
   
   
 
