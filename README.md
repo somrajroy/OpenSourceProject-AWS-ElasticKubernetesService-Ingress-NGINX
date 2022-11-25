@@ -70,6 +70,7 @@ AWS EKS Ingress with NGINX Ingress Controller & eksctl <br/><br/>
 * [Using a Network Load Balancer with the NGINX Ingress Controller on Amazon EKS](https://aws.amazon.com/blogs/opensource/network-load-balancer-nginx-ingress-controller-eks/)<br/>
 * [How do I configure the NGINX Ingress Controller to increase the client request body, activate CORS to allow additional headers, and use WebSocket to work with Amazon EKS?](https://aws.amazon.com/premiumsupport/knowledge-center/eks-configure-nginx-ingress-controller/)<br/>
 * [NGINX Ingress Controller for Amazon EKS](https://www.qloudx.com/nginx-ingress-controller-for-amazon-eks-frequently-used-annotations/)<br/>
+* [INSTALL THE NGINX INGRESS CONTROLLER](https://weaveworks-gitops.awsworkshop.io/25_workshop_2_ha-dr/50_add_yamls/10_alb_ingress.html)<br/>
   
   
 
