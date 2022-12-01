@@ -1,4 +1,4 @@
-AWS EKS Ingress with NGINX Ingress Controller & eksctl <br/><br/>
+AWS EKS Ingress with NGINX Ingress Controller & eksctl  <br/><br/>
 * Kubernetes supports a high-level abstraction called Ingress, which allows host- or URL-based routing. An Ingress is a core concept of Kubernetes. It is always implemented by a third party proxy; these implementations are known as ingress controllers. An ingress controller is responsible for reading the ingress resource information and processing that data accordingly. Different ingress controllers have extended the specification in different ways to support additional use cases.<br/>
 * Ingress can route traffic to multiple services inside the cluster <br/>
 ![image](https://user-images.githubusercontent.com/92582005/202991943-e65e2453-760d-4bd5-bd8c-86ab19de6166.png) <br/>
@@ -61,12 +61,10 @@ AWS EKS Ingress with NGINX Ingress Controller & eksctl <br/><br/>
   $ kubectl get -A ValidatingWebhookConfiguration <br/>
   $ kubectl delete ValidatingWebhookConfiguration nginx-ingress-ingress-nginx-admission <br/>
 #### Further references :
-* [What is Amazon EKS?](https://docs.aws.amazon.com/eks/latest/userguide/what-is-eks.html)<br/>
 * [How do I provide external access to multiple Kubernetes services in my Amazon EKS cluster?](https://aws.amazon.com/premiumsupport/knowledge-center/eks-access-kubernetes-services/)<br/>
 * [Introducing the AWS Load Balancer Controller](https://aws.amazon.com/blogs/containers/introducing-aws-load-balancer-controller/)<br/>
 * [How to Set Up Ingress Controller in AWS EKS](https://towardsdatascience.com/how-to-set-up-ingress-controller-in-aws-eks-d745d9107307)<br/>
 * [How do I set up an ALB using the AWS Load Balancer Controller on an EC2 node group in EKS?](https://www.youtube.com/watch?v=TUS8KWaGKco)<br/>
-* [Kubernetes Ingress](https://kubernetes.io/docs/concepts/services-networking/ingress/)<br/>
 * [Using a Network Load Balancer with the NGINX Ingress Controller on Amazon EKS](https://aws.amazon.com/blogs/opensource/network-load-balancer-nginx-ingress-controller-eks/)<br/>
 * [How do I configure the NGINX Ingress Controller to increase the client request body, activate CORS to allow additional headers, and use WebSocket to work with Amazon EKS?](https://aws.amazon.com/premiumsupport/knowledge-center/eks-configure-nginx-ingress-controller/)<br/>
 * [NGINX Ingress Controller for Amazon EKS](https://www.qloudx.com/nginx-ingress-controller-for-amazon-eks-frequently-used-annotations/)<br/>
